@@ -11,3 +11,6 @@ Registro do meu aprendizado no curso Programação em JavaScript pelo SENAI Paul
 
 #### Aula - 01
 Introdução ao HTML/CSS com JS.
+
+#### Aula - 02
+Variáveis, tipagem, operadores relacionais, operadores matemáticos e operadores lógicos.
