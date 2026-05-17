@@ -14,3 +14,5 @@ Introdução ao HTML/CSS com JS.
 
 #### Aula - 02
 Variáveis, tipagem, operadores relacionais, operadores matemáticos e operadores lógicos.
+
+#### Aula - 03
