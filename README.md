@@ -19,4 +19,4 @@ Variáveis, tipagem, operadores relacionais, operadores matemáticos e operadore
 Apresetação de Estruturas Condicionais com JavaScript.
 
 #### Aula - 04
-Git/GitHub.
+Sistema com JS + Git/GitHub.
