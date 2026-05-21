@@ -23,3 +23,6 @@ Sistema com JavaScript + Git/GitHub.
 
 #### Aula - 05
 Laços de repetição no JavaScript: for, while, do while, foreach.
+
+#### Aula - 06
+Estruturas de Funções no JavaScript.
