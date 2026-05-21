@@ -173,3 +173,71 @@ let plavaras = ["JS", "é", "muito", "bom!"];
 let frase = palavras.join(" ");
 console.log(frase);
 ```
+
+#### PUSH/POP
+PUSH -> Adicionar elementos no final do array.
+POP -> Remover elementos no final do array.
+
+```js
+let lista = ["A", "B"];
+
+lista.push("C", "D"); // Adicionando
+lista.pop(); // Removendo o ultimo elemento - "D"
+
+console.log(lista);
+```
+
+#### SHIFT/UNSHIFT
+SHIFT ->  Remover elementos do inicio do array.
+UNSHIFT -> Adicionar elementos o inicio do array.
+
+```js
+let lista = ["B", "C"];
+
+lista.unshift("A"); // Adiciona
+console.log(lista);
+
+lista.shift(); // Remove
+console.log(lista);
+```
+
+#### SLICE
+Cria uma cópia de uma parte da lista.
+
+```js
+let numeros = [1, 2, 3, 4];
+let copia = numeros.slice(1, 3); // 1 e 3 são posições do array
+
+console.log(copia);
+```
+
+#### SPLICE
+Remove ou adiciona elementos em qualquer posição.
+
+```js
+let numeros = [1, 2, 3, 4];
+
+numeros.splice(1, 1); // Vai retornar 1, 3, 4
+console.log(numeros);
+
+let frutas = ["Maçã", "Uva", "Laranja", "Manga"];
+
+frutasR.splice(0, 3, "Limão", "Kiwi"); // Vai retornar "Limão", "Kiwi", "Manga"
+console.log(frutasR);
+
+let frutas = ["Maçã", "Uva", "Laranja", "Manga"];
+
+frutas.splice(2, 0, "Limão", "Kiwi"); // Vai adicionar esses elementos na segunda posição, empurrando o elemento que estava nela para frente
+console.log(frutas);
+```
+
+#### REPLACE
+Substitui uma parte da string
+
+```js
+let texto = "Olá, mundo!";
+
+// replace(valorProcurado, valorSubstituto)
+let novoTexto = texto.replace("mundo", "visitante");
+console.log(novoTexto);
+```

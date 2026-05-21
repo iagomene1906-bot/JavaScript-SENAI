@@ -118,7 +118,78 @@
 // console.log(numeros);
 
 // JOIN -> Junta os elementos de um array em uma string
-let plavaras = ["JS", "é", "muito", "bom!"];
+// let plavaras = ["JS", "é", "muito", "bom!"];
 
-let frase = palavras.join(" ");
-console.log(frase);
+// let frase = palavras.join(" ");
+// console.log(frase);
+
+// PUSH -> Adicionar elementos no final do array
+// POP -> Remover elementos no final do array
+// let lista = ["A", "B"];
+
+// lista.push("C", "D"); // Adicionando
+// lista.pop(); // Removendo o ultimo elemento - "D"
+
+// console.log(lista);
+
+// SHIFT ->  Remover elementos do inicio do array
+// UNSHIFT -> Adicionar elementos o inicio do array
+// let lista = ["B", "C"];
+
+// lista.unshift("A"); // Adiciona
+// console.log(lista);
+
+// lista.shift(); // Remove
+// console.log(lista);
+
+// SLICE -> Cria uma cópia de uma parte da lista
+/*
+    array.slice(inicial, final)
+
+    inicial -> onde começa (a copiar o array)
+    final -> onde para (não inclui a posição final (indice / index))
+*/
+
+// let numeros = [1, 2, 3, 4];
+// let copia = numeros.slice(1, 3); // 1 e 3 são posições do array
+
+// console.log(copia);
+
+// SPLICE -> Remove ou adiciona elementos em qualquer posição
+/*
+    array.splice(indice, count, item1, item2, ..., itemx)
+
+    indice -> posição do elemento no array(index)
+    count -> números de itens a serem removidos (pode ser 0)
+    item - itens que vão ser adicionados
+*/
+
+// let numeros = [1, 2, 3, 4];
+
+// numeros.splice(1, 1);
+// console.log(numeros);
+
+// let frutas = ["Maçã", "Uva", "Laranja", "Manga"];
+
+// frutas.splice(0, 3, "Limão", "Kiwi");
+// console.log(frutas);
+
+// let frutas = ["Maçã", "Uva", "Laranja", "Manga"];
+
+// frutas.splice(2, 0, "Limão", "Kiwi");
+// console.log(frutas);
+
+// REPLACE -> Substitui uma parte da string
+// let texto = "Olá, mundo!";
+
+// replace(valorProcurado, valorSubstituto)
+// let novoTexto = texto.replace("mundo", "visitante");
+// console.log(novoTexto);
+
+
+// SPOILER.....
+let paragrafoP = document.getElementById("paragrafo");
+
+let saudacao = prompt("Digite uma saudação ");
+
+paragrafoP.textContent = saudacao == "Bom dia" ? saudacao : "QUINTOU!";
