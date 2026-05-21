@@ -6,7 +6,7 @@ Laços de repetição no JavaScript: for, while, do while, foreach.
 
 ## Exemplos
 
-#### Estruturas de repetição
+### Estruturas de repetição
 
 Permite executar várias vezes um bloco de código com base em uma condição.
 
