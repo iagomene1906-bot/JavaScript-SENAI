@@ -12,6 +12,7 @@ Apresetação ao HTML e CSS com JavaScript.
 
 ## Exemplos
 
+```js
     function mudarCor(){
     let cores = ["#FF5733", "#3357FF", "#33FF57", "#FF33A1"]; // Array(Lista) de cores
 
@@ -19,3 +20,4 @@ Apresetação ao HTML e CSS com JavaScript.
 
     document.body.style.backgroundColor = corAleatoria; // background vai receber corAleatoria, fazendo a cor da página mudar
     }
+```
