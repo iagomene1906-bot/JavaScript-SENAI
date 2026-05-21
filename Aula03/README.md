@@ -17,56 +17,61 @@ Apresetação de Estruturas Condicionais com JavaScript.
 #### Condicional Aninhada
 Uma condição dentro da outra
 
-    const nota = 5;
+```js
+const nota = 5;
 
-    if(nota >= 7){
-        if(nota == 10){
-            console.log("Aprovado com exito!");
-        }
-        else{
-            console.log("Aprovado!");
-        }
+if(nota >= 7){
+    if(nota == 10){
+        console.log("Aprovado com exito!");
     }
     else{
-        console.log("Reprovado!");
+        console.log("Aprovado!");
     }
+}
+else{
+    console.log("Reprovado!");
+}
+```
 
 #### Condicional
 
-    let dispositivo = prompt("Você está usando: celular, tablet ou computador? ").toLowerCase();
+```js
+let dispositivo = prompt("Você está usando: celular, tablet ou computador? ").toLowerCase();
 
-    if(dispositivo == "celular" || dispositivo == "tablet"){
-        console.log("Modo mobile ativado!");
-    }
-    else if(dispositivo == "computador"){
-        console.log("Modo desktop ativado!");
-    }
-    else{
-        console.log("Dispositivo desconhecido.");
-    }
+if(dispositivo == "celular" || dispositivo == "tablet"){
+    console.log("Modo mobile ativado!");
+}
+else if(dispositivo == "computador"){
+    console.log("Modo desktop ativado!");
+}
+else{
+    console.log("Dispositivo desconhecido.");
+}
+```
 
 #### SWITCH/CASE
 
-    let tema = prompt("Digite um tema: claro, escuro, azul ou digite sair").toLowerCase();
+```js
+let tema = prompt("Digite um tema: claro, escuro, azul ou digite sair").toLowerCase();
 
-    switch(tema){
-        case "claro":
-            console.log("Tema claro ativado!");
-            document.body.style.backgroundColor = "#ecececff";
-            break;
-        case "escuro":
-            console.log("Tema escuro ativado!");
-            document.body.style.backgroundColor = "#222222ff";
-            break;
-        case "azul":
-            console.log("Tema azul ativado!");
-            document.body.style.backgroundColor = "#3d3d8dff";
-            break;
-        case "sair":
-            console.log("Saindo...")
-            break;
-        default:
-            console.log("Tema inválido!");
-            break;    
-    }
-     
+switch(tema){
+    case "claro":
+        console.log("Tema claro ativado!");
+        document.body.style.backgroundColor = "#ecececff";
+        break;
+    case "escuro":
+        console.log("Tema escuro ativado!");
+        document.body.style.backgroundColor = "#222222ff";
+        break;
+    case "azul":
+        console.log("Tema azul ativado!");
+        document.body.style.backgroundColor = "#3d3d8dff";
+        break;
+    case "sair":
+        console.log("Saindo...")
+        break;
+    default:
+        console.log("Tema inválido!");
+        break;    
+}
+```

@@ -10,6 +10,8 @@ Variáveis, tipagem, operadores relacionais, operadores matemáticos e operadore
     VAR     -> Forma antiga - evitar usar (está sendo descontinuado por conta dos muitos erros que causa)
     CONST   -> Quando o alor da variável NÃO pode mudar
 
-    let nome = "Clark Kent";
-    var idade = 17;
-    const cidade = "Pequenópolis";
+```js
+let nome = "Clark Kent";
+var idade = 17;
+const cidade = "Pequenópolis";
+```
