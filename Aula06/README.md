@@ -7,7 +7,9 @@ Funções no JavaScript.
 ## Material
 
 [Funções Importantes do JavaScript](https://sparkling-link-662.notion.site/Fun-es-Importantes-do-JavaScript-3291683796128089acfbef50c96040df)
+
 [Atividade](https://drive.google.com/file/d/1zACVN2XqqmqFq5V1AswDCT1X7q2F1ZDq/view?pli=1)
+
 [Exercícios](https://sparkling-link-662.notion.site/Exerc-cios-Fun-es-329168379612803fb7a1c4709ea0955d)
 
 ---
