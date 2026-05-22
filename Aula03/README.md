@@ -15,7 +15,7 @@ Apresetação de Estruturas Condicionais com JavaScript.
 ## Exemplos
 
 #### Condicional Aninhada
-Uma condição dentro da outra
+Uma condição dentro da outra.
 
 ```js
 const nota = 5;
@@ -33,7 +33,7 @@ else{
 }
 ```
 
-#### Condicional
+#### Mais Condições
 
 ```js
 let dispositivo = prompt("Você está usando: celular, tablet ou computador? ").toLowerCase();
@@ -49,7 +49,22 @@ else{
 }
 ```
 
+#### IF Ternário
+Em uma única linha.
+
+```js
+se for verdadeiro -> a resposta vem depois da interrogação
+se for falso -> a resposta vem depois dos dois pontos
+let resposta = (idade > 18) ? "maior de idade" : "menor de idade";
+
+se for verdadeiro -> a resposta vem depois da interrogação
+se for falso -> a resposta vem depois dos dois pontos
+se depois dos dois pontos tiver outra condição, a gente volta para o começo
+let resposta2 = (idade > 18) ? "maior de idade" : (idade > 75) ? "idoso" : "menor de idade";
+```
+
 #### SWITCH/CASE
+Menu de opções.
 
 ```js
 let tema = prompt("Digite um tema: claro, escuro, azul ou digite sair").toLowerCase();

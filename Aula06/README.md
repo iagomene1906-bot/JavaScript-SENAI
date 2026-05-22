@@ -233,12 +233,12 @@ console.log(frutasR);
 
 let frutas = ["Maçã", "Uva", "Laranja", "Manga"];
 
-frutas.splice(2, 0, "Limão", "Kiwi"); // Vai adicionar esses elementos na segunda posição, empurrando o elemento que estava nela para frente
-console.log(frutas);
+frutas.splice(2, 0, "Limão", "Kiwi"); // Vai adicionar esses elementos na segunda posição,
+console.log(frutas);                  // empurrando o elemento que estava nela para frente
 ```
 
 #### REPLACE
-Substitui uma parte da string
+Substitui uma parte da string.
 
 ```js
 let texto = "Olá, mundo!";
