@@ -55,3 +55,35 @@
 
 // 4. Validação de senha:
 // console.log("===== EXERCÍCIO 4 =====");
+// const password = "admin";
+
+// let passwordDigitada = "";
+
+// while(passwordDigitada != password){
+//     passwordDigitada = String(prompt("Digite a senha correta para efetuar o login."));
+// }
+
+// console.log("Login efetuado!");
+
+// 5. Soma até parar:
+// console.log("===== EXERCÍCIO 5 =====");
+// let numero = "";
+// let soma = 0;
+
+// do{
+//     numero = Number(prompt("Digite números para somar.\nDigite '0' se quiser parar a soma."));
+//     soma += numero;
+//     console.log(soma);
+// }while(numero != 0)
+
+// console.log("Encerrando a soma.....");
+
+// 6. Média de valores:
+// console.log("===== EXERCÍCIO 6 =====");
+// let soma = 0;
+// for (let i = 1; i <= 3; i ++){
+//     numero = Number(prompt(`Digite o número ${i}:`));
+//     soma += numero
+// }
+
+// console.log(`Média dos números digitados: ${soma/3}`);
