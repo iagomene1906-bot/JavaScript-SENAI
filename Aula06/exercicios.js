@@ -1,6 +1,11 @@
 // Nível Básico
 
 // 1. Lista numerada:
-let listaNomes = ["Iago", "Davi", "Vinicius", "Wesley", "Pedro"];
+// const listaNomes = ["Iago", "Davi", "Vinicius", "Wesley", "Pedro"];
 
-listaNomes.forEach(nome => console.log(nome));
+// listaNomes.map((nome, indice) => {
+//     console.log(`${indice} ${nome}`);
+// });
+
+// 2. Exibir posições:
+const listaCores = ["Azul", "Vermelho", "Preto", "Branco"];
