@@ -87,3 +87,31 @@
 // }
 
 // console.log(`Média dos números digitados: ${soma/3}`);
+
+// Nível Avançado
+
+// 1. Soma dos dígitos de um número:
+// console.log("===== EXERCÍCIO 1 =====");
+// let numero = Number(prompt("Digite um número inteiro e positivo"));
+// soma = 0;
+
+// while (numero > 0) {
+//     soma += numero % 10; // pega o último dígito
+//     numero = Math.floor(numero / 10); // remove o último dígito
+// }
+
+// console.log(soma);
+
+// 2. Tabuada dinâmica:
+// console.log("===== EXERCÍCIO 2 =====");
+// let numero = Number(prompt("Digite um número para ver a tabuada"));
+// let tabuada;
+
+// for (let i = 1; i <= 10; i++) {
+//     tabuada = numero * i;
+//     console.log(tabuada);
+// }
+
+// 3. Inverter um número:
+// console.log("===== EXERCÍCIO 3 =====");
+// let numero = Number(prompt("Digite um número para invertermos"));
