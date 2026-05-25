@@ -77,10 +77,68 @@
 // })
 
 // evento mouse
-const elemento = document.getElementById("troca_cor");
-const botao = document.getElementById("btn");
+// const elemento = document.getElementById("troca_cor");
+// const botao = document.getElementById("btn");
 
 // mouse over -> quanda passa o mouse por cima do elemento
-elemento.addEventListener("mouseover", () => {
-    elemento.style.backgroundColor = "#FF0000"
+// elemento.addEventListener("mouseover", () => {
+    // elemento.style.backgroundColor = "#FF0000"
+// })
+
+// mouseout -> quando o mouse sai de cima do elemento
+// elemento.addEventListener("mouseout", () => {
+    // elemento.style.backgroundColor = "#0000ff";
+    // botao.style.backgroundColor = "#0000ff";
+    // elemento.style.backgroundColor = ""; // tira o fundo, volta a cor padrão
+// })
+
+// pegar a posição do mouse
+// document.addEventListener("mousemove", (evento) => {
+//     console.log("Posição de X: ", evento.clientX, " Posição do Y: ", evento.clientY);
+// })
+
+// Evento de formulário (submit)
+// const form = document.getElementById("form");
+
+// comportamento padrão de um formulário é recarregar a página
+// form.addEventListener("submit", (evento) => {
+    // evento.preventDefault(); // impede o comportamento padrão
+
+    // const nome = document.getElementById("nome").value;
+    // console.log("Nome: " + nome);
+// })
+
+// criando elementos na página
+// const novoElemento = document.createElement("p"); // cria um elemento <p>
+// novoElemento.innerText = "Elemento novo criado"; // cria um texto no elemento
+
+// form.appendChild(novoElemento); // estamos adicionando um elemento filho (p) dentro do pai (form).
+
+// const botao = document.createElement("button");
+// botao.innerText = "Excluir elemento";
+// form.appendChild(botao);
+
+// botao.addEventListener("click", (e) => {
+    // e.preventDefault();
+
+    // novoElemento.remove();
+
+    // apagando direto do pai
+    // form.removeChild(novoElemento)
+// })
+
+// adicionando elementos em uma lista não ordenada (ul) atraves de um input
+const input = document.getElementById("input") // input
+const botao = document.getElementById("add") // botao
+const lista = document.getElementById("lista") // ul
+
+botao.addEventListener("click", () =>{
+    const valor = input.value; // pega o valor digitado na caixa (input)
+
+    const li = document.createElement("li");
+    li.innerText = valor;
+
+    lista.appendChild(li);
+
+    input.value = "";
 })
