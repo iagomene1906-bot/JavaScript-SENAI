@@ -1,0 +1,32 @@
+body {
+    background-color: #6F4E37;
+}
+
+#window {
+    width: 300px;
+    margin: 300px auto;
+    padding: 50px;
+    text-align: center;
+    border: 3px solid #9A0002;
+    border-radius: 20px 20px;
+    background-color: #EFE6DE;
+    color: #9A0002;
+}
+
+#botaoLike {
+    width: 150px;
+    padding: 10px 40px;
+    cursor: pointer;
+    border-radius: 40px 40px;
+    background-color: #9A0002;
+    color: #FFFFFF;
+    border: none;
+}
+
+#titulo {
+    font-size: 70px;
+}
+
+#texto {
+    font-size: 20px;
+}

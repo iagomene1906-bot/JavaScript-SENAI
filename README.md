@@ -26,3 +26,9 @@ Laços de repetição no JavaScript: for, while, do while, foreach.
 
 #### Aula - 06
 Estruturas de Funções no JavaScript.
+
+#### Aula - 07
+Introdução a Manipulação de DOM com JS.
+
+#### Aula - 08
+Prática de manipulação de DOM com JS.
