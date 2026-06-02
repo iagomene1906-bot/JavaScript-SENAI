@@ -26,7 +26,7 @@ const cepMockados = {
 
 }
 
-const campoCeop = document.getElementById("cep");
+const campoCep = document.getElementById("cep");
 const botaoBuscar = document.getElementById("botao_buscar");
 const campoRua = document.getElementById("rua");
 const campoBairro = document.getElementById("bairro");
@@ -52,7 +52,7 @@ function buscarCep() {
     // \D é o oposto de /d (representa os digitos numéricos)
     // g significa global, quer dizer que estamos aplicando a remoção em todos os caracteres, não só no primeiro
     // trim() remove espaços em branco no início e fim da entrada 
-    const cep = campoCeop.value.replace(/\D/g, "").trim()
+    const cep = campoCep.value.replace(/\D/g, "").trim()
 
     if (cep.length !== 8) {
         alert("CEP inválido!");
